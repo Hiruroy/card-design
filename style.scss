@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,300;1,400;1,600&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -9,6 +11,10 @@ body {
   background-position: bottom;
   display: grid;
   place-content: center;
+font-family: 'Poppins', sans-serif;
+background:url(img/c.svg),url(img/circle.png) ;
+background-size:  cover;
+background-repeat: no-repeat;
 }
 .main {
   display: flex;
@@ -24,6 +30,9 @@ body {
   transition: 0.3s;
   box-shadow: 0 30px 25px -15px rgba(17, 0, 78, 0.384);
   margin-bottom: 50px;
+  background-color: #ededed1d;
+  backdrop-filter: blur(5px);
+  cursor: pointer;
 }
 
 .card:hover {
@@ -85,8 +94,8 @@ body {
 
     svg {
       width: 20px;
-      fill: white;
-      stroke: rgb(228, 228, 228);
+      fill: #f9f9f9;
+      stroke: #fbfbfb;
     }
   }
   .self {
@@ -111,7 +120,7 @@ body {
       height: 85px;
       object-fit: cover;
       border-radius: 50%;
-      box-shadow: 0 0 0 3px #7e00d2;
+      box-shadow: 0 0 0 3px #9701e2;
     }
   }
 }
@@ -143,6 +152,7 @@ body {
     width: 40px;
     margin: 15px 0 10px 85px;
     fill: rgb(247, 247, 247);
+    stroke: rgb(183, 0, 255);
   }
 }
 
